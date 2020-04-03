@@ -30,7 +30,7 @@ const Header = () => {
             fontFamily: '-apple-system, Helvetica, Arial, sans-serif',
           }}>
           <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: [1, 4] }}>
-            <img src={`${basePath}assets/img/${(isDark ?  'dark' : 'light')}-mind.png`} alt="sjdhskjdhsjkdh" width="50px"style={{marginBottom: '-10px'}} />
+            <img src={`${basePath}assets/img/${(isDark ?  'logo' : 'light-logo')}-mind.png`} alt="mind" width="50px"style={{marginBottom: '-15px'}} />
             <span sx={{backgroundColor: '#f2f2f2', color: '#2a2a2a', padding: '0.5rem'}}>HENRIQUE SILVA</span>
             <span sx={{backgroundColor: '#000', color: '#fff', fontWeight: `bold`, padding: '0.5rem'}}>DEV</span>
           </h1>
