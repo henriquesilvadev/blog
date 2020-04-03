@@ -27,7 +27,7 @@ const EmailListForm: React.FunctionComponent<{}> = () => {
 
   return (
     <div style={{marginTop: '50px'}}>
-      <Title text="Boletim de Notícias"></Title>
+      <Title text="Inscreva-se em nossa newsletter"></Title>
       <form onSubmit={handleSubmit}>
         <div>
           <input

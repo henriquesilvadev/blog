@@ -15,7 +15,7 @@ const iconRenderSwitch = (param) => {
   switch(param) {
     case 'Últimas Postagens':
       return 'typing-machine.png';
-    case 'Boletim de Notícias':
+    case 'Inscreva-se em nossa newsletter':
       return 'mailbox.png';
     case 'Todas as Postagens':
       return 'archive.png';
