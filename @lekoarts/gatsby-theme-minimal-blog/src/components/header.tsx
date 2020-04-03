@@ -19,17 +19,14 @@ const Header = () => {
   }
 
   return (
-    <header sx={{ mb: [5, 3] }}>
-      <Flex sx={{ alignItems: `center`, justifyContent: `space-between` }}>        
+    <header sx={{ mb: [5, 4] }}>
+      <Flex sx={{ alignItems: `center`, justifyContent: `space-between` }}>
         <Link
           to={replaceSlashes(`/${basePath}`)}
           aria-label={`${siteTitle} - Back to home`}
-          sx={{ 
-            color: `heading`,
-            textDecoration: `none`,
-            fontFamily: '-apple-system, Helvetica, Arial, sans-serif',
-          }}>
-          <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: [1, 4] }}>
+          sx={{ color: `heading`, textDecoration: `none` }}
+        >
+          <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: [3, 4] }}>
             <span sx={{backgroundColor: '#f2f2f2', color: '#2a2a2a', padding: '0.5rem'}}>HENRIQUE SILVA</span>
             <span sx={{backgroundColor: '#000', color: '#fff', fontWeight: `bold`, padding: '0.5rem'}}>DEV</span>
           </h1>
@@ -43,24 +40,23 @@ const Header = () => {
           variant: `dividers.bottom`,
           alignItems: `center`,
           justifyContent: `space-between`,
-          mt: 1,
+          mt: 3,
           color: `secondary`,
           a: { color: `secondary`, ":hover": { color: `heading` } },
           flexFlow: `wrap`,
         }}
       >
-        <div></div>
         <Navigation nav={nav} />
-        {/* {externalLinks && externalLinks.length > 0 && (
+        {externalLinks && externalLinks.length > 0 && (
           <div sx={{ "a:not(:first-of-type)": { ml: 3 }, fontSize: [1, `18px`] }}>
-            {externalLinks.map(link => (
-              <Styled.a key={link.url} href={link.url} target={link.target}>
+            {externalLinks.map((link) => (
+              <Styled.a key={link.url} href={link.url}>
                 {link.name}
               </Styled.a>
             ))}
           </div>
-        )} */}
-      </div>      
+        )}
+      </div>
     </header>
   )
 }

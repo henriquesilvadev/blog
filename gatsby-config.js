@@ -42,9 +42,9 @@ module.exports = {
           //   url: `https://about.me/henriquesilva`,
           // },
           {
-            name: ``,
+            name: `SALAS DE AULA`,
             target: `_blank`,
-            url: `https://github.com/henriquehsilva`,
+            url: `https://henriquesilvadev.workplace.com/`,
           },
           // {
           //   name: `Instagram`,
@@ -101,6 +101,7 @@ module.exports = {
         endpoint: 'https://dev.us19.list-manage.com/subscribe/post?u=65338fe69bd7e3f70bd675d53&amp;id=3cf1696e47',
       },
     },
+    `gatsby-plugin-modal-routing`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-webpack-bundle-analyser-v2`,

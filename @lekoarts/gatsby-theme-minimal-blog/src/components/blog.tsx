@@ -35,7 +35,7 @@ const Blog = ({ posts }: PostsProps) => {
           View all tags
         </Styled.a> */}
       {/* </Flex> */}
-        <Title text="Todas as Postagens"></Title>
+        {/* <Title text="Todas as Postagens"></Title> */}
       <Listing posts={posts} />
     </Layout>
   )
