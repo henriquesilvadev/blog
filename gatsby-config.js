@@ -28,7 +28,7 @@ module.exports = {
           },
           {
             title: `PROJETOS`,
-            slug: `/subscribe-course`,
+            slug: `/pay-what-you-want`,
           },  
           {
             title: `SOBRE`,
