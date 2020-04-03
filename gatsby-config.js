@@ -26,10 +26,10 @@ module.exports = {
             title: `CURSOS`,
             slug: `/courses`,
           },
-            // {
-            //   title: `PARA EMPRESAS`,
-            //   slug: `/for-businesses`,
-            // },  
+          {
+            title: `PROJETOS`,
+            slug: `/subscribe-course`,
+          },  
           {
             title: `SOBRE`,
             slug: `/about`,
