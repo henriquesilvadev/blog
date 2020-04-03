@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "henriquesilvadev-blog",
+  "description": "Programmer, Mathematical and Lifelong Learner.",
+  "version": "1.0.8",
+  "author": "Henrique Silva <contato@henriquesilva.dev>",
+  "license": "MIT",
+  "starter-name": "henriquesilvadev-blog",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
+    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-minimal-blog": "^2.2.2",
+    "autoprefixer": "^9.7.5",
+    "disqus-react": "^1.0.8",
+    "gatsby": "^2.13.3",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-flexsearch": "^1.0.3",
+    "gatsby-plugin-google-analytics": "^2.1.4",
+    "gatsby-plugin-local-search": "^1.1.1",
+    "gatsby-plugin-mailchimp": "^5.1.2",
+    "gatsby-plugin-manifest": "^2.2.3",
+    "gatsby-plugin-netlify": "^2.1.3",
+    "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-postcss": "^2.2.1",
+    "gatsby-plugin-sitemap": "^2.2.19",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-source-instagram-all": "^2.0.5",
+    "gatsby-transformer-remark": "^2.7.1",
+    "graphql": "^14.6.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "source-map": "^0.7.3",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8"
+  }
+}

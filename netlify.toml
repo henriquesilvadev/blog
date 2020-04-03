@@ -1,0 +1,4 @@
+[build]
+  base = "."
+  command = "npm install && rm -rf node_modules/@lekoarts && cp -rf @lekoarts node_modules/ && yarn build"
+  publish = "public"

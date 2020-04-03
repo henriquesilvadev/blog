@@ -1,0 +1,92 @@
+---
+title: "Compiladores e Interpretadores"
+date: 2020-03-12
+slug: "/blog/compilers-and-interpreters"
+description: "A maneira de se comunicar com um computador chama-se programa e a única linguagem que o computador entende chama-se linguagem de máquina. 
+Portanto todos os programas que se comunicam com a máquina devem estar em linguagem de máquina."
+tags:
+    - Programming
+    - Basic
+    - pt-BR
+---
+
+![](https://media.giphy.com/media/U8a3XdqEmQ9l6/giphy.gif)
+
+A maneira de se comunicar com um computador chama-se programa e a única linguagem que o computador entende chama-se linguagem de máquina. Portanto todos os programas que se comunicam com a máquina devem estar em linguagem de máquina.
+
+A forma como os programas são traduzidos para a linguagem de máquina classifica-os em duas categorias:
+* INTERPRETADOS
+* COMPILADOS
+
+Os programas que fazem essas tradução são chamados de **interpretadores** e **compiladores**.
+
+### INTERPRETADORES
+
+Um interpretador lê a primeira instrução do programa faz uma consistência de sua sintaxe e se não houver erro converte-a para linguagem de máquina para finalmente executá-la. Segue, então, para a próxima instrução, repetindo o processo até que a última instrução seja executada ou a consistência aponte algum erro.
+
+O interpretador precisa estar presente todas as vezes que vamos executar o nosso programa e o trabalho de checagem da sintaxe e tradução deverá ser repetido. Se uma parte do programa necessitar ser executada muitas vezes, o processo é feito o mesmo número de vezes.
+
+### COMPILADORES
+
+Um compilador lê a primeira instrução do programa, faz uma consistência de sua sintaxe e se não houver erro converte-a para linguagem de máquina e, em vez de executá-la, segue para a próxima instrução repetindo o processo até que a última instrução seja atingida ou a consistência aponte algum erro.
+
+Se não houver erros, o compilador gera um programa em disco com o sufixo **.OBJ** com as instruções já traduzidas. Este programa não pode ser executado até que sejam agregadas a ele rotinas em linguagem de máquina que lhe permitirão a sua execução. Este trabalho é feito por um programa chamado "linkeditor" que, além de juntar as rotinas necessárias ao programa **.OBJ**, cria um produto final em disco com o sufixo **.EXE** que pode ser executado diretamente do sistema operacional.
+
+Com isso a velocidade de execução do programa chega a ser 15 a 20 vezes mais rápida do que quando o programa é interpretado.
+
+Além da velocidade, outras vantagens podem ser mencionadas.
+
+* é desnecessária a presença do interpretador ou do compilador para executar o programa já compilado e linkeditado;
+* programas **.EXE** não podem ser alterados, o que protege o código-fonte.
+
+Apesar de um compilador ter muitas vantagens sobre um interpretador, algumas considerações devem ser feitas.
+
+Os interpretadores permitem que se produzam programas com maior facilidade na fase de aprendizado, pois podem ser criados e executados imediatamente, enquanto um compilador requer muito mais tempo para que um programa possa ser executado.
+
+Um compilador não criará um programa em linguagem de máquina antes que este esteja absolutamente livre de erros, e durante o processo de aprendizado de uma linguagem a quantidade de erros gerados é relativamente grande, o qu faz com que um interpretador seja mais conveniente.
+
+Existem no mercado, compiladores e interpretadores da linguagem C.
+
+##### COMO CRIAR UM PROGRAMA EXECUTÁVEL
+
+* Datilografar seu programa com o auxílio de um processador de textos no modo não documento. Gravar o programa em disco dando a ele um nome com o sufixo  **.C**. O programa gerado é chamado de **fonte**.
+
+* Compilar o fonte seguindo as instruções do seu compilador, o que criará um programa com o sufixo **.OBJ** em disco. O programa gerado é chamado de **objeto**.
+
+* Linkeditar o objeto seguindo as instruções do seu linkeditor o que criará um programa com o sufixo **.EXE** em disco. O programa gerado é chamado de **executável**.
+
+>Fonte: [Treinamento em Linguagem C: Victorine Viviane Mizrahi](https://www.amazon.com.br/Treinamento-linguagem-Victorine-Viviane-Mizrahi/dp/8576051915/ref=sr_1_1?qid=1584304095&refinements=p_27%3AVictorine+Viviane+Mizrahi&s=books&sr=1-1)
+
+### Sugestão de Ferramentas:
+
+[Visual Studio Code](https://code.visualstudio.com/)
+
+Para quem usa Microsoft Windows:
+[Windows Terminal](https://www.microsoft.com/pt-br/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab)
+
+[GCC, the GNU Compiler Collection](https://gcc.gnu.org/)
+
+### Exemplo de uso
+
+Datilografando seu programa
+
+```c:title=hello_world.c 
+#include <stdio.h>
+
+int main() {    
+    printf("Hello, World!");
+    return 0;
+}
+```
+Compilando e Linkeditando o objeto gerado
+
+```noLineNumbers
+$ gcc -o hello_world hello_world.c
+
+```
+Executando programa gerado
+
+```noLineNumbers
+$ ./hello_world
+Hello, World!
+```
