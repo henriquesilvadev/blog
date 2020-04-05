@@ -23,7 +23,7 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `CURSOS`,
+            title: `CATÁLOGO`,
             slug: `/courses`,
           },
           // {
