@@ -36,11 +36,11 @@ module.exports = {
           },
         ],
         externalLinks: [
-          // {
-          //   name: `About`,
-          //   target: `_blank`,
-          //   url: `https://about.me/henriquesilva`,
-          // },
+          {
+            name: `APORTE`,
+            target: `_blank`,
+            url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
+          },
           {
             name: `MINHA SALA DE AULA`,
             target: `_blank`,
