@@ -44,7 +44,7 @@ module.exports = {
           {
             name: `SALAS DE AULA`,
             target: `_blank`,
-            url: `https://henriquesilvadev.workplace.com/`,
+            url: `https://classroom.google.com/u/0/h`,
           },
           // {
           //   name: `Instagram`,
