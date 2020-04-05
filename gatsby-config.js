@@ -42,7 +42,7 @@ module.exports = {
           //   url: `https://about.me/henriquesilva`,
           // },
           {
-            name: `SALAS DE AULA`,
+            name: `MINHA SALA DE AULA`,
             target: `_blank`,
             url: `https://classroom.google.com/u/0/h`,
           },
