@@ -13,7 +13,7 @@ import useMinimalBlogConfig from "../hooks/use-minimal-blog-config"
 import replaceSlashes from "../utils/replaceSlashes"
 import SentenceBook from "./sentence-book"
 import EmailListForm from "./email-list-form"
-import SpotifyPlaylist from "./spotify-playlist"
+import SoundCloudPlayer from "./soundcloud-player"
 
 type PostsProps = {
   posts: {
@@ -48,7 +48,7 @@ const Homepage = ({ posts }: PostsProps) => {
       </Title>
       </section>
       <Listing posts={posts} showTags={false} />
-      {/* <SpotifyPlaylist uri={"https://open.spotify.com/playlist/5ggSdArYBwNDU95ePtnPYG"}/> */}
+      <SoundCloudPlayer />
       <EmailListForm />
       <List>
         <Bottom />

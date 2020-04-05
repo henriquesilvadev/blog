@@ -25,7 +25,9 @@ const iconRenderSwitch = (param) => {
       return 'business-climb.png';      
     case 'Cursos':
       return 'mind.png';       
-
+    case 'Podcast':
+      return 'logo-mind.png';       
+          
     default:
       return 'Subscribe';
   }
