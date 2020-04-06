@@ -13,7 +13,7 @@ class SoundCloudPlayer extends Component {
           scrolling="no" 
           frameborder="no" 
           allow="autoplay" 
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1026277024&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/805156144&color=%23f2f2f2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
         </iframe>
       </div> 
     )
