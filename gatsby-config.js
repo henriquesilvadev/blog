@@ -10,8 +10,8 @@ module.exports = {
     siteUrl: `https://henriquesilva.dev`,
     siteDescription: `Sou Programador, Matemático e eterno aprendiz em busca de significado no mundo através de rascunhos de cálculo e linhas de código.`,
     siteLanguage: `pt-br`,
-    siteImage: `/assets/img/logo-mind.png`,
-    author: `@hhsilva`,
+    siteImage: `https://storage.cloud.google.com/staging.enduring-tea-269022.appspot.com/me.png`,
+    author: `@henriquesilvadev`,
   },
   plugins: [
     {
