@@ -44,7 +44,7 @@ module.exports = {
           {
             name: `MINHA SALA DE AULA`,
             target: `_blank`,
-            url: `https://classroom.google.com/u/0/h`,
+            url: `https://henriquesilvadev.teachable.com/p/home`,
           },
           // {
           //   name: `Instagram`,
