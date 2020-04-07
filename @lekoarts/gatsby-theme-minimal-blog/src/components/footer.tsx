@@ -31,6 +31,7 @@ const Footer = () => {
       <a href="https://twitter.com/dev_henrique" target="_blank">Twitter</a>
       <a href="https://www.youtube.com/channel/UCSi18AMnRETZoNSQrOwwaOw" target="_blank">YouTube</a>
       <a href="https://soundcloud.com/henrique-silva-dev" target="_blank">SoundCloud</a>   
+      <a href="https://chat.whatsapp.com/CE9apP2Ky7r9ENS6sSShGG" target="_blank">WhatsApp</a>
 
       {/* <div>
         <Styled.a
