@@ -23,7 +23,7 @@ type BlogListItemProps = {
 }
 
 const BlogListItem = ({ post, showTags = true }: BlogListItemProps) => (
-  <Box mb={[2,4,3]} sx={{background: '#f2f2f2', color: '#2a2a2a', fontFamily: '-apple-system, Helvetica, Arial, sans-serif',
+  <Box mb={[2,4,3]} sx={{backgroundColor: '#F2F2F2', color: '#2A2A2A', fontFamily: '-apple-system, Helvetica, Arial, sans-serif',
   padding: '2rem'}}>
 
     <Styled.a as={Link} to={post.slug} sx={{ fontSize: [1, 2, 3], color: '#2a2a2a' }}>
@@ -37,7 +37,7 @@ const BlogListItem = ({ post, showTags = true }: BlogListItemProps) => (
       <span>
         {post.tags && showTags && (
           <React.Fragment>          
-            <b>Tags: </b>
+            <b>Habilidades Desenvolvidas: </b>
             <ItemTags tags={post.tags} />
           </React.Fragment>
         )}
