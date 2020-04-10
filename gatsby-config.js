@@ -26,10 +26,6 @@ module.exports = {
             title: `CATÁLOGO`,
             slug: `/courses`,
           },
-          // {
-          //   title: `PROJETOS`,
-          //   slug: `/pay-what-you-want`,
-          // },  
           {
             title: `SOBRE`,
             slug: `/about`,
@@ -45,6 +41,11 @@ module.exports = {
             name: `COMUNIDADE`,
             target: `_blank`,
             url: `https://join.slack.com/t/henriquesilvadev/shared_invite/zt-dczfn4xt-7J_HA1C2OLzo4aIs1S39Ww`,
+          },
+          {
+            name: `ATELIÊ`,
+            target: `_blank`,
+            url: `https://henriquesilvadev.slack.com`,
           },
           {
             name: `MINHA SALA DE AULA`,
