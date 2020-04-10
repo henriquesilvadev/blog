@@ -33,19 +33,14 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `APORTE`,
-            target: `_blank`,
-            url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
-          },
-          {
             name: `AGENDAR REUNIÃO`,
             target: `_blank`,
             url: `https://calendly.com/henriquesilvadev`,
           },
           {
-            name: `COMUNIDADE`,
+            name: `APORTE`,
             target: `_blank`,
-            url: `https://join.slack.com/t/henriquesilvadev/shared_invite/zt-dczfn4xt-7J_HA1C2OLzo4aIs1S39Ww`,
+            url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
           },
           {
             name: `ATELIÊ`,
@@ -53,10 +48,20 @@ module.exports = {
             url: `https://henriquesilvadev.slack.com`,
           },
           {
+            name: `COMUNIDADE`,
+            target: `_blank`,
+            url: `https://join.slack.com/t/henriquesilvadev/shared_invite/zt-dczfn4xt-7J_HA1C2OLzo4aIs1S39Ww`,
+          },
+          {
             name: `MINHA SALA DE AULA`,
             target: `_blank`,
             url: `https://henriquesilvadev.teachable.com/p/home`,
           },
+          {
+            name: `SALA DE REUNIÃO`,
+            target: `_blank`,
+            url: `https://zoom.us/j/7512795114?pwd=dTNiQ2kzNmgrZFE3aTJrZEJndk54QT09`,
+          },    
           // {
           //   name: `Instagram`,
           //   target: `_blank`,
