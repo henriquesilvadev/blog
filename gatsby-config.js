@@ -38,6 +38,11 @@ module.exports = {
             url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
           },
           {
+            name: `AGENDAR REUNIÃO`,
+            target: `_blank`,
+            url: `https://calendly.com/henriquesilvadev`,
+          },
+          {
             name: `COMUNIDADE`,
             target: `_blank`,
             url: `https://join.slack.com/t/henriquesilvadev/shared_invite/zt-dczfn4xt-7J_HA1C2OLzo4aIs1S39Ww`,
