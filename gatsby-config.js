@@ -27,41 +27,45 @@ module.exports = {
             slug: `/courses`,
           },
           {
+            title: `PARA EMPRESAS`,
+            slug: `/for-businesses  `,
+          },
+          {
             title: `SOBRE`,
             slug: `/about`,
           },
         ],
         externalLinks: [
-          {
-            name: `AGENDAR REUNIÃO`,
-            target: `_blank`,
-            url: `https://calendly.com/henriquesilvadev`,
-          },
-          {
-            name: `APORTE`,
-            target: `_blank`,
-            url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
-          },
-          {
-            name: `ATELIÊ`,
-            target: `_blank`,
-            url: `https://henriquesilvadev.slack.com`,
-          },
-          {
-            name: `COMUNIDADE`,
-            target: `_blank`,
-            url: `https://join.slack.com/t/henriquesilvadev/shared_invite/zt-dczfn4xt-7J_HA1C2OLzo4aIs1S39Ww`,
-          },
+          // {
+          //   name: `AGENDAR REUNIÃO`,
+          //   target: `_blank`,
+          //   url: `https://calendly.com/henriquesilvadev`,
+          // },
+          // {
+          //   name: `APORTE`,
+          //   target: `_blank`,
+          //   url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
+          // },
+          // {
+          //   name: `ATELIÊ`,
+          //   target: `_blank`,
+          //   url: `https://henriquesilvadev.slack.com`,
+          // },
+          // {
+          //   name: `COMUNIDADE`,
+          //   target: `_blank`,
+          //   url: `https://join.slack.com/t/henriquesilvadev/shared_invite/zt-dczfn4xt-7J_HA1C2OLzo4aIs1S39Ww`,
+          // },
           {
             name: `MINHA SALA DE AULA`,
             target: `_blank`,
             url: `https://henriquesilvadev.teachable.com/p/home`,
           },
-          {
-            name: `SALA DE REUNIÃO`,
-            target: `_blank`,
-            url: `https://zoom.us/j/7512795114?pwd=dTNiQ2kzNmgrZFE3aTJrZEJndk54QT09`,
-          },    
+          // {
+          //   name: `SALA DE REUNIÃO`,
+          //   target: `_blank`,
+          //   url: `https://zoom.us/j/7512795114?pwd=dTNiQ2kzNmgrZFE3aTJrZEJndk54QT09`,
+          // },    
           // {
           //   name: `Instagram`,
           //   target: `_blank`,
