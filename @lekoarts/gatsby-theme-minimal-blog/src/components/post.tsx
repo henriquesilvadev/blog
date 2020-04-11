@@ -5,8 +5,6 @@ import React from "react"
 import Layout from "./layout"
 import ItemTags from "./item-tags"
 import SEO from "./seo"
-import useSiteMetadata from "../hooks/use-site-metadata"
-import { DiscussionEmbed } from "disqus-react"
 
 type PostProps = {
   data: {
@@ -33,43 +31,32 @@ type PostProps = {
   }
 }
 
-const Post = ({ data: { post } }: PostProps) => {
-  const px = [`32px`, `16px`, `8px`, `4px`]
-  const shadow = px.map(v => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`)
-  const { siteUrl } = useSiteMetadata()
-  const disqusShortname = "henriquesilva-dev"
-  const disqusConfig = {
-    url: [siteUrl, post.slug].join(''),
-    identifier: post.slug,
-    title: post.title,
-  }
+const px = [`32px`, `16px`, `8px`, `4px`]
+const shadow = px.map(v => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`)
 
-  return (
-    <Layout>
-      <SEO
-        title={post.title}
-        description={post.description ? post.description : post.excerpt}
-        image={post.banner ? post.banner.childImageSharp.resize.src : undefined}
-      />
-      <Styled.h1>{post.title}</Styled.h1>
-      <p sx={{ color: `secondary`, mt: 3, a: { color: `secondary` }, fontSize: [1, 1, 2] }}>
-        <time>{post.date}</time>
-        {post.tags && (
-          <React.Fragment>
-            {` — `}
-            <ItemTags tags={post.tags} />
-          </React.Fragment>
-        )}
-        {` — `}
-        <span>{post.timeToRead} minuto{post.timeToRead > 1 ? 's' : ''} de leitura</span>
-      </p>
-      <section sx={{ my: 5, ".gatsby-resp-image-wrapper": { my: [4, 4, 5], boxShadow: shadow.join(`, `) } }}>
-        <MDXRenderer>{post.body}</MDXRenderer>
-      </section>      
-      <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
-      <br />
-    </Layout>
-  )
-}
+const Post = ({ data: { post } }: PostProps) => (
+  <Layout>
+    <SEO
+      title={post.title}
+      description={post.description ? post.description : post.excerpt}
+      image={post.banner ? post.banner.childImageSharp.resize.src : undefined}
+    />
+    <Styled.h2>{post.title}</Styled.h2>
+    <p sx={{ color: `secondary`, mt: 3, a: { color: `secondary` }, fontSize: [1, 1, 2] }}>
+      <time>{post.date}</time>
+      {post.tags && (
+        <React.Fragment>
+          {` — `}
+          <ItemTags tags={post.tags} />
+        </React.Fragment>
+      )}
+      {` — `}
+      <span>{post.timeToRead} min read</span>
+    </p>
+    <section sx={{ my: 5, ".gatsby-resp-image-wrapper": { my: [4, 4, 5], boxShadow: shadow.join(`, `) } }}>
+      <MDXRenderer>{post.body}</MDXRenderer>
+    </section>
+  </Layout>
+)
 
 export default Post

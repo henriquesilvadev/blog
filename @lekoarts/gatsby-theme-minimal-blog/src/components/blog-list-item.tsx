@@ -13,7 +13,6 @@ type BlogListItemProps = {
     excerpt: string
     description: string
     timeToRead: number
-    banner?: string
     tags?: {
       name: string
       slug: string
@@ -23,32 +22,25 @@ type BlogListItemProps = {
 }
 
 const BlogListItem = ({ post, showTags = true }: BlogListItemProps) => (
-  <Box mb={[2,4,3]} sx={{backgroundColor: '#F2F2F2', color: '#2A2A2A', fontFamily: '-apple-system, Helvetica, Arial, sans-serif',
-  padding: '2rem'}}>
-
-    <Styled.a as={Link} to={post.slug} sx={{ fontSize: [1, 2, 3], color: '#2a2a2a' }}>
-      <b>{post.title}</b> 
-      </Styled.a>     
-      <br />
-      <p sx={{ color: `secondary`, mt: 1, a: { color: `secondary` }, fontSize: '15px' }}>    
-
+  <Box mb={4} sx={{border: '1px solid', padding: '2rem'}}>
+    <Styled.a as={Link} to={post.slug} sx={{ fontSize: [1, 2, 3], color: `text` }}>
+      {post.title}
+    </Styled.a>
+    <p sx={{ color: `secondary`, mt: 1, a: { color: `secondary` }, fontSize: [1, 1, 2] }}>
       <time style={{marginRight: '10px'}}> <b>Compartilhado em:</b> {post.date}</time>
       <br />
       <span>
         {post.tags && showTags && (
           <React.Fragment>          
-            <b>Habilidades Desenvolvidas: </b>
+            <b>Assunto: </b>
             <ItemTags tags={post.tags} />
           </React.Fragment>
         )}
       </span>
-    </p> 
-    <p>
+    </p>
+    <p sx={{fontFamily: '-apple-system, Helvetica, Arial, sans-serif'}}>
       {post.description}
     </p>
-    {/* <Styled.a as={Link} to={post.slug} sx={{ fontSize: [1], color: '#b7b3b3', border: '1px solid #b7b3b3', padding: '0.3rem'}}>
-      
-    </Styled.a>    */}
     <Styled.a 
     as={Link} 
     to={post.slug}
@@ -67,7 +59,7 @@ const BlogListItem = ({ post, showTags = true }: BlogListItemProps) => (
         backgroundColor: '#4c4c46',
         textDecoration: 'none',
       },      
-    }}>Leia mais</Styled.a>   
+    }}>Leia mais</Styled.a>
   </Box>
 )
 

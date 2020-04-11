@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "@lekoarts/gatsby-theme-minimal-blog@2.2.2",
+      "/home/henrique/Projetos/henriquesilvadev"
+    ]
+  ],
   "_from": "@lekoarts/gatsby-theme-minimal-blog@2.2.2",
   "_id": "@lekoarts/gatsby-theme-minimal-blog@2.2.2",
   "_inBundle": false,
@@ -20,8 +26,7 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@lekoarts/gatsby-theme-minimal-blog/-/gatsby-theme-minimal-blog-2.2.2.tgz",
-  "_shasum": "18b64547c162a41e5cc93b5761ea8468f22e6e9b",
-  "_spec": "@lekoarts/gatsby-theme-minimal-blog@2.2.2",
+  "_spec": "2.2.2",
   "_where": "/home/henrique/Projetos/henriquesilvadev",
   "author": {
     "name": "LekoArts",
@@ -30,7 +35,6 @@
   "bugs": {
     "url": "https://github.com/LekoArts/gatsby-themes/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@lekoarts/gatsby-theme-minimal-blog-core": "^2.2.1",
@@ -52,7 +56,6 @@
     "theme-ui": "^0.2.52",
     "typeface-ibm-plex-sans": "^0.0.75"
   },
-  "deprecated": false,
   "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.",
   "gitHead": "851f25ff71ee0d2279d1715b4f99992e32ef168c",
   "homepage": "https://themes.lekoarts.de",

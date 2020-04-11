@@ -19,19 +19,26 @@ const Header = () => {
   }
 
   return (
-    <header sx={{ mb: [5, 4] }}>
+    <header 
+      sx={{ 
+        mb: [5, 4],
+        backgroundColor: '#fafbfc',
+        border: '1px solid',
+        position: 'fixed',
+        padding: '50px',
+        width: '100%',
+        top: 0,
+        }}>
       <Flex sx={{ alignItems: `center`, justifyContent: `space-between` }}>
         <Link
           to={replaceSlashes(`/${basePath}`)}
           aria-label={`${siteTitle} - Back to home`}
-          sx={{ color: `heading`, textDecoration: `none` }}
-        >
-          <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: [3, 4] }}>
-            <span sx={{backgroundColor: '#f2f2f2', color: '#2a2a2a', padding: '0.5rem'}}>HENRIQUE SILVA</span>
-            <span sx={{backgroundColor: '#000', color: '#fff', fontWeight: `bold`, padding: '0.5rem'}}>DEV</span>
+          sx={{ color: `heading`, textDecoration: `none` }}>
+          <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: '20px' }}>
+            <img src='assets/img/logo-henriquesilva-dev.jpg' sx={{ width: '30px'}} />
+            {siteTitle}
           </h1>
-        </Link>
-        <ColorModeToggle isDark={isDark} toggle={toggleColorMode} />
+        </Link>        
       </Flex>
       <div
         sx={{
@@ -40,7 +47,7 @@ const Header = () => {
           variant: `dividers.bottom`,
           alignItems: `center`,
           justifyContent: `space-between`,
-          mt: 3,
+          mt: 4,
           color: `secondary`,
           a: { color: `secondary`, ":hover": { color: `heading` } },
           flexFlow: `wrap`,
@@ -49,11 +56,24 @@ const Header = () => {
         <Navigation nav={nav} />
         {externalLinks && externalLinks.length > 0 && (
           <div sx={{ "a:not(:first-of-type)": { ml: 3 }, fontSize: [1, `18px`] }}>
-            {externalLinks.map((link) => (
+            {externalLinks.map(link => (
               <Styled.a key={link.url} href={link.url}>
                 {link.name}
               </Styled.a>
             ))}
+            <a 
+              sx={{ 
+                color: `#222`,
+                backgroundColor: `#0000`,
+                border: `1px solid #0000`,
+                padding: `0.375rem 0.75rem`,
+                fontSize: `1rem`,
+                lineHeight: `1.5`,
+                borderRadius: `0.25rem`,
+
+              }}
+              href="https://github.com/henriquesilvadev">
+              <i className="fa fa-github"></i>Github</a>
           </div>
         )}
       </div>

@@ -1,4 +1,4 @@
-import React, {useReact} from "react"
+import React from "react"
 import { Link, graphql } from "gatsby"
 
 const BlogIndex = props => {

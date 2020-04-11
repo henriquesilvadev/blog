@@ -23,7 +23,7 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `CATÁLOGO`,
+            title: `CURSOS`,
             slug: `/courses`,
           },
           {
@@ -41,11 +41,11 @@ module.exports = {
           //   target: `_blank`,
           //   url: `https://calendly.com/henriquesilvadev`,
           // },
-          // {
-          //   name: `APORTE`,
-          //   target: `_blank`,
-          //   url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
-          // },
+          {
+            name: `APORTE`,
+            target: `_blank`,
+            url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
+          },
           // {
           //   name: `ATELIÊ`,
           //   target: `_blank`,
@@ -121,6 +121,12 @@ module.exports = {
         endpoint: 'https://dev.us19.list-manage.com/subscribe/post?u=65338fe69bd7e3f70bd675d53&amp;id=3cf1696e47',
       },
     },
+    // {
+    //   resolve: "gatsby-plugin-typography",
+    //   options: {
+    //     pathToConfigModule: "src/utils/typography.js"
+    //   },
+    // },
     `gatsby-plugin-modal-routing`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,

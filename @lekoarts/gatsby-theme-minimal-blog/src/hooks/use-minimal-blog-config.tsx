@@ -9,7 +9,6 @@ type Props = {
     tagsPath: string
     externalLinks: {
       name: string
-      target: string
       url: string
     }[]
     navigation: {
@@ -31,7 +30,6 @@ const useMinimalBlogConfig = () => {
         tagsPath
         externalLinks {
           name
-          target
           url
         }
         navigation {

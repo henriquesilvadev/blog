@@ -18,7 +18,9 @@ const Layout = ({ children, className }: LayoutProps) => (
           boxSizing: `inherit`,
         },
         body: {
+          position: 'flex',
           margin: 0,
+          marginTop: '200px',
           padding: 0,
           boxSizing: `border-box`,
           textRendering: `optimizeLegibility`,
@@ -78,9 +80,9 @@ const Layout = ({ children, className }: LayoutProps) => (
     />
     <SEO />
     <SkipNavLink>Skip to content</SkipNavLink>
+    <Header />
     <Container>
-      <Header />
-      <Main id="skip-nav" css={css({ ...CodeStyles })} className={className}>
+      <Main id="skip-nav" css={css({ ...CodeStyles })} className={className} sx={{ marginTop: '200px'}}>
         {children}
       </Main>
       <Footer />

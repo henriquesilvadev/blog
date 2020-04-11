@@ -35,19 +35,19 @@ const Homepage = ({ posts }: PostsProps) => {
 
   return (
     <Layout>
-      <section sx={{ mb: [4, 4, 5], p: { fontSize: [1, 2, 3], mt: 2 }, background: '#f2f2f2', color: '#2a2a2a',
+      <section sx={{ mb: [5 , 4, 5], p: { fontSize: [1, 2, 3], mt: 2 },
           fontFamily: '-apple-system, Helvetica, Arial, sans-serif',
-          padding: '2rem',}}>
+          padding: '2rem', border: '1px solid'}}>
         <Hero />
         <hr />
         <SentenceBook />
       </section>
-      <section sx={{mb: [5,3]}}>
+      <section sx={{mb: [3]}}>
       <Title text="Últimas Postagens">
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Demais Postagens</Link>
       </Title>
       </section>
-      <Listing posts={posts} showTags={false} />
+      <Listing posts={posts} showTags={false} />      
       <SoundCloudPlayer />
       <EmailListForm />
       <List>
