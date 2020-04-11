@@ -18,6 +18,12 @@ const Footer = () => {
         },
         flexDirection: [`column`, `column`, `row`],
         variant: `dividers.top`,
+        backgroundColor: '#fafbfc',
+        border: '1px solid',
+        position: 'fixed-bottom',
+        padding: '20px 100px 25px 80px',
+        width: '100%',
+        top: 0,
       }}
     >
       <div>

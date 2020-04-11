@@ -21,11 +21,11 @@ const Header = () => {
   return (
     <header 
       sx={{ 
-        mb: [5, 4],
+        mb: [3, 4],
         backgroundColor: '#fafbfc',
         border: '1px solid',
         position: 'fixed',
-        padding: '50px',
+        padding: '20px 100px 25px 80px',
         width: '100%',
         top: 0,
         }}>
@@ -35,10 +35,11 @@ const Header = () => {
           aria-label={`${siteTitle} - Back to home`}
           sx={{ color: `heading`, textDecoration: `none` }}>
           <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: '30px' }}>
-            <img src='assets/img/logo-henriquesilva-dev.jpg' sx={{ width: '40px'}} />
+            <img src='/assets/img/logo-henriquesilva-dev.jpg' sx={{ width: '40px'}} />
             {siteTitle}
           </h1>
-        </Link>        
+        </Link> 
+        <ColorModeToggle />     
       </Flex>
       <div
         sx={{
@@ -60,20 +61,7 @@ const Header = () => {
               <Styled.a key={link.url} href={link.url}>
                 {link.name}
               </Styled.a>
-            ))}
-            <a 
-              sx={{ 
-                color: `#222`,
-                backgroundColor: `#0000`,
-                border: `1px solid #0000`,
-                padding: `0.375rem 0.75rem`,
-                fontSize: `1rem`,
-                lineHeight: `1.5`,
-                borderRadius: `0.25rem`,
-
-              }}
-              href="https://github.com/henriquesilvadev">
-              <i className="fa fa-github"></i>Github</a>
+            ))}           
           </div>
         )}
       </div>
