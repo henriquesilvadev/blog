@@ -20,7 +20,7 @@ const Layout = ({ children, className }: LayoutProps) => (
         body: {
           position: 'flex',
           margin: 0,
-          marginTop: '200px',
+          marginTop: '250px',
           padding: 0,
           boxSizing: `border-box`,
           textRendering: `optimizeLegibility`,

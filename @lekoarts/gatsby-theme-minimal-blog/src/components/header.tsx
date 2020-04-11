@@ -34,8 +34,8 @@ const Header = () => {
           to={replaceSlashes(`/${basePath}`)}
           aria-label={`${siteTitle} - Back to home`}
           sx={{ color: `heading`, textDecoration: `none` }}>
-          <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: '20px' }}>
-            <img src='assets/img/logo-henriquesilva-dev.jpg' sx={{ width: '30px'}} />
+          <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: '30px' }}>
+            <img src='assets/img/logo-henriquesilva-dev.jpg' sx={{ width: '40px'}} />
             {siteTitle}
           </h1>
         </Link>        
