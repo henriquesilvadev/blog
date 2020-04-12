@@ -28,10 +28,13 @@ export default ({
       paddingTop: '50px',
       width: '20%'
       }}>                
-      <img src="../assets/img/book-2.png" alt="book1" />
-      <br />
-      <br />
-      <img src="../assets/img/book-3.png" alt="book1" />
+      <img src="../assets/img/book-8.jpg" alt="book8" />
+      <br /><br />
+      <img src="../assets/img/book-2.png" alt="book2" />
+      <br /><br />
+      <img src="../assets/img/book-3.png" alt="book3" />
+      <br /><br />
+      <img src="../assets/img/book-5.png" alt="book5" />
     </Sidebar>
     <Content css={{ width: '60%' }}>
       {props.children}
@@ -42,9 +45,12 @@ export default ({
       width: '20%'
       }}>                
       <img src="../assets/img/book1.jpg" alt="book1" />
-      <br />
-      <br />
-      <img src="../assets/img/book-4.png" alt="book-4" />
+      <br /><br />
+      <img src="../assets/img/book-4.png" alt="book4" />
+      <br /><br />
+      <img src="../assets/img/book-7.png" alt="book7" />
+      <br /><br />
+      <img src="../assets/img/book-6.png" alt="book6" />
     </Sidebar>
 
   </Main>

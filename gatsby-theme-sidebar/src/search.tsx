@@ -3,8 +3,8 @@ import React from 'react'
 const Search = () => {
 
   return (
-    <section css={{ width: '890px', marginLeft: '50px' }}>
-      <form css={{ backgroundColor: '#fff', padding: '10px' }}>
+    <section css={{ width: '940px'  }}>
+      <form css={{ backgroundColor: '#fff', padding: '10px', marginLeft: '50px'}}>
         <div>
           <input css={{ border: '1px solid' }}
             placeholder="Encontre o que procura"
