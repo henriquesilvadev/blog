@@ -31,13 +31,13 @@ export default ({
       paddingTop: '50px',
       width: '20%'
       }}>                
-      <img src="../assets/img/book-8.jpg" alt="book8" />
+      <img src="https://storage.cloud.google.com/henriquesilvadev/book-8.jpg" alt="book8" />
       <br /><br />
-      <img src="../assets/img/book-2.png" alt="book2" />
+      <img src="https://storage.cloud.google.com/henriquesilvadev/book-2.png" alt="book2" />
       <br /><br />
-      <img src="../assets/img/book-3.png" alt="book3" />
+      <img src="https://storage.cloud.google.com/henriquesilvadev/book-3.jpg" alt="book3" />
       <br /><br />
-      <img src="../assets/img/book-5.png" alt="book5" />
+      <img src="https://storage.cloud.google.com/henriquesilvadev/book-5.png" alt="book5" />
     </Sidebar>
     <Content css={{ width: '60%' }}>
       {props.children}
@@ -47,13 +47,13 @@ export default ({
       paddingTop: '50px',
       width: '20%'
       }}>                
-      <img src="../assets/img/book1.jpg" alt="book1" />
+      <img src="https://storage.cloud.google.com/henriquesilvadev/book1.jpg" />
       <br /><br />
-      <img src="../assets/img/book-4.png" alt="book4" />
+      <img src="https://storage.cloud.google.com/henriquesilvadev/book-4.png" alt="book4" />
       <br /><br />
-      <img src="../assets/img/book-7.png" alt="book7" />
+      <img src="https://storage.cloud.google.com/henriquesilvadev/book-7.png" alt="book7" />
       <br /><br />
-      <img src="../assets/img/book-6.png" alt="book6" />
+      <img src="https://storage.cloud.google.com/henriquesilvadev/book-6.png" alt="book6" />
     </Sidebar>
 
   </Main>
