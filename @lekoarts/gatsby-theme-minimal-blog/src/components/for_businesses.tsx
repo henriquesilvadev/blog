@@ -11,7 +11,26 @@ const ForBusinesses = () => {
   const { navigation: nav, externalLinks, basePath } = useMinimalBlogConfig()
 
   return (
-    <section>
+    <section
+      sx={{ 
+        a: {
+          display: 'inline-block',
+          border: 'none',
+          margin: '2px',
+          backgroundImage: 'none',
+          backgroundColor: '#000000',
+          color: '#ffffff',
+          letterSpacing: '1px',
+          transaction: 'all 0.1s linear',
+          padding: '0.7rem 1rem',
+          textDecoration: 'none',
+          "&:hover": {
+            cursor: 'pointer',
+            backgroundColor: '#4c4c46',
+            textDecoration: 'none',
+          },
+        },      
+      }}>
       <Title text="Para Empresas" />
       <Box mb={4} sx={{border: '1px solid', padding: '2rem'}}>
         <b>MISSÃO</b>
@@ -25,9 +44,10 @@ const ForBusinesses = () => {
         <hr />  
         Espero poder entender os padrões do bom design de software e também os 
         melhores processos que os dão suporte. 
-
-  {/* [**Manifesto para Desenvolvimento Ágil de Software**](https://agilemanifesto.org/iso/ptbr/manifesto.html)
-  | [**Princípios do Software Ágil**](https://agilemanifesto.org/iso/ptbr/principles.html) */}
+        <br /><br />
+        
+        <a href="https://agilemanifesto.org/iso/ptbr/manifesto.html">Manifesto para Desenvolvimento Ágil de Software</a>
+        <a href="https://agilemanifesto.org/iso/ptbr/principles.html">Princípios do Software Ágil</a>
 
         <br /><br />
 
@@ -40,28 +60,15 @@ const ForBusinesses = () => {
           <li>Gestão eficiente e compartilhada.</li>
         </ul>
         <hr />
-        <section 
-          sx={{ 
-            a: {
-              display: 'inline-block',
-              border: 'none',
-              margin: '2px',
-              backgroundImage: 'none',
-              backgroundColor: '#000000',
-              color: '#ffffff',
-              letterSpacing: '1px',
-              transaction: 'all 0.1s linear',
-              padding: '0.7rem 1rem',
-              textDecoration: 'none',
-              "&:hover": {
-                cursor: 'pointer',
-                backgroundColor: '#4c4c46',
-                textDecoration: 'none',
-              },
-            },      
-          }}>
+        <section>
           <a href="/about">SOBRE MIM</a>        
           <a href="https://calendly.com/henriquesilvadev/work">MINHA AGENDA</a>
+          <a href="https://join.slack.com/t/henriquesilvadev/shared_invite/zt-dczfn4xt-7J_HA1C2OLzo4aIs1S39Ww">MEU LOCAL DE TRABALHO</a>
+          <hr />
+          <a href="me/hhsilva">Meu Telegram</a>
+          <a href="https://api.whatsapp.com/send?phone=+5562985849729">Meu WhatsApp</a>
+          <a href="mailto://contato@henriquesilva.dev">E-mail: contato@henriquesilva.dev</a>
+          
         </section>
       </Box>
     </section>      

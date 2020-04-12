@@ -18,26 +18,10 @@ const Footer = () => {
         },
         flexDirection: [`column`, `column`, `row`],
         variant: `dividers.top`,
-      }}
-    >
+      }}>
       <div>
         &copy; {new Date().getFullYear()} {siteTitle}. Todos os Direitos Resevados.
       </div>
-
-      {/* <div>
-        <Styled.a
-          aria-label="Link to the theme's GitHub repository"
-          href="https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog"
-        >
-          Theme
-        </Styled.a>
-        {` `}
-        by
-        {` `}
-        <Styled.a aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
-          LekoArts
-        </Styled.a>
-      </div> */}
     </footer>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import Container from './container'
 
 export default ({
-  maxWidth = 960,
+  maxWidth = 1024,
   padding,
   children,
   ...props
