@@ -7,9 +7,9 @@ import Header from "./header"
 import Footer from "./footer"
 import CodeStyles from "../styles/code"
 import SkipNavLink from "./skip-nav"
+import { Sidebar } from "gatsby-theme-sidebar"
 
 type LayoutProps = { children: React.ReactNode; className?: string }
-
 
 const Layout = ({ children, className }: LayoutProps) => {
 
@@ -21,7 +21,7 @@ const Layout = ({ children, className }: LayoutProps) => {
             boxSizing: `inherit`,
           },
           body: {
-            position: 'flex-wrap',
+            // position: 'flex',
             margin: 0,
             // marginTop: '250px',
             padding: 0,
@@ -68,13 +68,13 @@ const Layout = ({ children, className }: LayoutProps) => {
       />
       <SEO />
       <SkipNavLink>Skip to content</SkipNavLink>
-      <Container>
-        <Header />
-        <Main id="skip-nav" css={css({ ...CodeStyles })} className={className} sx={{ marginTop: '200px'}}>
-          {children}
-        </Main>
-        <Footer />
-      </Container>
+        <Container>
+          {/* <Header /> */}
+          <Main id="skip-nav" css={css({ ...CodeStyles })} className={className} sx={{ marginTop: '200px'}}>
+            {children}
+          </Main>
+          <Footer />
+        </Container>
     </Styled.root>
   )
 }

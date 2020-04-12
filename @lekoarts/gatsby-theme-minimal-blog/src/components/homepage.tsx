@@ -14,6 +14,7 @@ import replaceSlashes from "../utils/replaceSlashes"
 import SentenceBook from "./sentence-book"
 import EmailListForm from "./email-list-form"
 import SoundCloudPlayer from "./soundcloud-player"
+import ForBusinesses from "./for_businesses"
 
 type PostsProps = {
   posts: {
@@ -42,6 +43,7 @@ const Homepage = ({ posts }: PostsProps) => {
         <hr />
         <SentenceBook />
       </section>
+      <ForBusinesses />
       <section sx={{mb: [3]}}>
       <Title text="Últimas Postagens">
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Demais Postagens</Link>

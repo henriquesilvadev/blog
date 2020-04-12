@@ -4,9 +4,10 @@ import { Link } from "gatsby"
 import { Flex } from "@theme-ui/components"
 import useSiteMetadata from "../hooks/use-site-metadata"
 import useMinimalBlogConfig from "../hooks/use-minimal-blog-config"
-import ColorModeToggle from "./colormode-toggle"
 import Navigation from "./navigation"
 import replaceSlashes from "../utils/replaceSlashes"
+import Title from "./title"
+import Hero from "./hero"
 
 const Header = () => {
   const { siteTitle } = useSiteMetadata()
@@ -19,25 +20,26 @@ const Header = () => {
   }
 
   return (
-    <header 
-      sx={{ 
-        mb: [3, 4],
-        backgroundColor: '#fafbfc',
-        border: '1px solid',
-        padding: '2rem',
-        top: 0,
-        }}>
+    <header       
+    sx={{ 
+      mb: [3, 4],
+      backgroundColor: '#fafbfc',
+      border: '1px solid',
+      display: 'fixed',
+      padding: '2rem',
+      top: 0,
+    }}>
+      <br />
       <Flex sx={{ alignItems: `center`, justifyContent: `space-between` }}>
-        <Link
+        {/* <Link
           to={replaceSlashes(`/${basePath}`)}
           aria-label={`${siteTitle} - Back to home`}
           sx={{ color: `heading`, textDecoration: `none` }}>
           <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: '30px' }}>
-            <img src='/assets/img/logo-henriquesilva-dev.jpg' sx={{ width: '50px'}} />
-            {siteTitle}
+          <img src='/assets/img/logo-henriquesilva-dev.jpg' sx={{ width: '50px'}} />
+          {siteTitle}
           </h1>
-        </Link> 
-        <ColorModeToggle />     
+        </Link>  */}
       </Flex>
       <div
         sx={{

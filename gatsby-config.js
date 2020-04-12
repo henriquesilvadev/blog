@@ -18,34 +18,34 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
         navigation: [
-          {
-            title: `BLOG`,
-            slug: `/blog`,
-          },
-          {
-            title: `CURSOS`,
-            slug: `/courses`,
-          },
+          // {
+          //   title: `BLOG`,
+          //   slug: `/blog`,
+          // },
+          // {
+          //   title: `CURSOS`,
+          //   slug: `/courses`,
+          // },
           {
             title: `PARA EMPRESAS`,
             slug: `/for-businesses  `,
           },
-          {
-            title: `SOBRE`,
-            slug: `/about`,
-          },
+          // {
+          //   title: `SOBRE`,
+          //   slug: `/about`,
+          // },
         ],
         externalLinks: [
-          // {
-          //   name: `AGENDAR REUNIÃO`,
-          //   target: `_blank`,
-          //   url: `https://calendly.com/henriquesilvadev`,
-          // },
           {
-            name: `APORTE`,
+            name: `AGENDAR REUNIÃO`,
             target: `_blank`,
-            url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
+            url: `https://calendly.com/henriquesilvadev`,
           },
+          // {
+          //   name: `APORTE`,
+          //   target: `_blank`,
+          //   url: `https://nubank.com.br/pagar/9ifs7/C6JdIWea8E`,
+          // },
           // {
           //   name: `ATELIÊ`,
           //   target: `_blank`,
@@ -56,11 +56,11 @@ module.exports = {
           //   target: `_blank`,
           //   url: `https://join.slack.com/t/henriquesilvadev/shared_invite/zt-dczfn4xt-7J_HA1C2OLzo4aIs1S39Ww`,
           // },
-          {
-            name: `MINHA SALA DE AULA`,
-            target: `_blank`,
-            url: `https://henriquesilvadev.teachable.com/p/home`,
-          },
+          // {
+          //   name: `MINHA SALA DE AULA`,
+          //   target: `_blank`,
+          //   url: `https://henriquesilvadev.teachable.com/p/home`,
+          // },
           // {
           //   name: `SALA DE REUNIÃO`,
           //   target: `_blank`,
@@ -127,6 +127,14 @@ module.exports = {
     //     pathToConfigModule: "src/utils/typography.js"
     //   },
     // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/static/assets/img/`,
+      },
+    },
+    'gatsby-theme-sidebar',
     `gatsby-plugin-modal-routing`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
