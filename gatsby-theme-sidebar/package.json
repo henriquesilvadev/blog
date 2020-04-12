@@ -1,0 +1,52 @@
+{
+  "_from": "gatsby-theme-sidebar",
+  "_id": "gatsby-theme-sidebar@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-0sBf7ij4rxTm1cDwF5lDiUKGbWMAQe37tId7XD7BxDtcQlqv8YB6Dyz10dG9Dniyi+Dtva3VBco1PMhSGYnBQQ==",
+  "_location": "/gatsby-theme-sidebar",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gatsby-theme-sidebar",
+    "name": "gatsby-theme-sidebar",
+    "escapedName": "gatsby-theme-sidebar",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gatsby-theme-sidebar/-/gatsby-theme-sidebar-0.0.2.tgz",
+  "_shasum": "da07ecb7d343d733a3f6cc3ead1333e87b125d95",
+  "_spec": "gatsby-theme-sidebar",
+  "_where": "/home/henrique/Projetos/henriquesilvadev",
+  "author": {
+    "name": "Brent Jackson",
+    "email": "jxnblk@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "gatsby-plugin-emotion": "^4.0.4",
+    "lodash.merge": "^4.6.1"
+  },
+  "deprecated": false,
+  "description": "A general-purpose Gatsby theme for creating sidebar layouts",
+  "gitHead": "bcf1dedcdfd15d10f87150cc4e518829450bca41",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gatsby-theme-sidebar",
+  "peerDependencies": {
+    "gatsby": "^2.1.18",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  },
+  "version": "0.0.2"
+}
