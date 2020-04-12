@@ -24,9 +24,7 @@ const Header = () => {
         mb: [3, 4],
         backgroundColor: '#fafbfc',
         border: '1px solid',
-        position: 'fixed',
-        padding: '20px 100px 25px 80px',
-        width: '100%',
+        padding: '2rem',
         top: 0,
         }}>
       <Flex sx={{ alignItems: `center`, justifyContent: `space-between` }}>
