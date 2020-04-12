@@ -37,7 +37,7 @@ const EmailListForm: React.FunctionComponent<{}> = () => {
             required
             onChange={handleEmailChange}
           />
-          <button type="submit">Assine</button>
+          <button style={{ backgroundColor: '#000', width: '20%', color: '#fff' }} type="submit">Assine</button>
         </div>
       </form>
     </div>

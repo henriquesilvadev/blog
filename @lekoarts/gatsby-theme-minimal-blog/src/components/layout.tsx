@@ -63,17 +63,6 @@ const Layout = ({ children, className }: LayoutProps) => {
               margin: '1.5px',
               padding: '1rem 1.5rem',
             },
-            a: {
-              height: 'auto',
-              padding: '40px 0',
-              color: '#fff',
-              fontSize: '20px',
-              textAlign: 'center',
-              // border-radius:4px;
-              // border:1px solid #980021;
-              // box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
-              // background-image: linear-gradient(to bottom, #cf2b4f, #980021 130%);
-            },
           },
         })}
       />
