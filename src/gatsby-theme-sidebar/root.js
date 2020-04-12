@@ -18,7 +18,7 @@ export default ({
       HENRIQUE SILVA DEV
     </h2>
     <Search />
-    <nav css={{ marginLeft: '100px', alignItems: `center`, justifyContent: `space-between` }}>
+    <nav css={{ marginLeft: '70px', alignItems: `center`, justifyContent: `space-between` }}>
       <GithubButton />
     </nav>
   </Header>

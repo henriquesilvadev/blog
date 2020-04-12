@@ -3,6 +3,7 @@ import { jsx } from "theme-ui"
 
 const navlinks = [
   { title: 'APORTE', url: 'https://nubank.com.br/pagar/9ifs7/C6JdIWea8E' },
+  { title: 'BLOG', url: '/blog' },
   { title: 'SALA DE AULA', url: 'https://henriquesilvadev.teachable.com/p/home' },
   // { title: 'SOBRE', url: '/about' },
 ]
@@ -17,9 +18,9 @@ const navlinks = [
 const GitHubButton = () => {
   return (
       (navlinks.map((link, index) => (
-        <a sx={{ fontSize: 20, margin: 10, textDecoration: 'none' }} href={link.url} target="_blank" alt={link.title}>
-        {link.title}
-      </a>  
+        <a sx={{ fontSize: 15, marginRight: '10px', textDecoration: 'none' }} href={link.url} target="_blank" alt={link.title}>
+          {link.title} |
+        </a>  
       ))
     )
   )
