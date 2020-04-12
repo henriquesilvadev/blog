@@ -1,5 +1,4 @@
 import React from 'react'
-import Search from './search'
 import GithubButton from './github-button'
 
 export default ({
@@ -13,12 +12,17 @@ export default ({
 }) =>
   <Layout css={{ fontFamily: "-apple-system, Helvetica, Arial, sans-serif"}}>
   <Header css={{ backgroundColor: '#fff', border: '1px solid'}}>
-    <img src='/assets/img/logo-2.jpg' alt='Logo' />
-    <h2 sx={{ my: 0, fontWeight: `medium`, fontSize: '30px' }}>
-      HENRIQUE SILVA DEV
-    </h2>
-    <Search />
-    <nav css={{ marginLeft: '70px', alignItems: `center`, justifyContent: `space-between` }}>
+      <img src='/assets/img/logo-2.jpg' alt='Logo' />
+      <span sx={{ fontSize: '20px' }}>
+        HENRIQUE SILVA <b>DEV</b>
+      </span>
+    {/* <Search /> */}
+    <nav 
+      css={{ 
+        alignItems: `right`, 
+        justifyContent: `space-between`, 
+        marginLeft: '150px',
+      }}>
       <GithubButton />
     </nav>
   </Header>

@@ -3,7 +3,7 @@ import React from 'react'
 const Search = () => {
 
   return (
-    <section css={{ width: '890px', marginLeft: '50px' }}>
+    <section css={{ width: '40%' }}>
       <form css={{ backgroundColor: '#fff', padding: '10px' }}>
         <div>
           <input css={{ border: '1px solid' }}
