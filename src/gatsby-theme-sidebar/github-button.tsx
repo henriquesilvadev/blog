@@ -27,7 +27,7 @@ const GitHubButton = () => {
             '&:hover':{
               fontWeight: 'bold',
             }    
-          }} href={link.url} target="_blank" alt={link.title}>
+          }} href={link.url} alt={link.title}>
           {link.title}
         </a>  
       ))

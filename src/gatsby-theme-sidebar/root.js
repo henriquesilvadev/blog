@@ -12,15 +12,12 @@ export default ({
 }) =>
   <Layout css={{ fontFamily: "-apple-system, Helvetica, Arial, sans-serif"}}>
   <Header css={{ backgroundColor: '#fff', border: '1px solid'}}>
-      <img src='/assets/img/logo-2.jpg' alt='Logo' />
-      <h2>
-        HENRIQUE SILVA DEV
-      </h2>
+    <img src='/assets/img/logo-4.jpg' alt='Logo' />
     <nav 
       css={{ 
         alignItems: `right`, 
         justifyContent: `space-between`, 
-        marginLeft: '100px',
+        marginLeft: '150px',
       }}>
       <GithubButton />
     </nav>
@@ -46,8 +43,8 @@ export default ({
       backgroundColor: '#f6f6f6',
       paddingTop: '50px',
       width: '20%'
-      }}>                
-      <img src="https://storage.cloud.google.com/henriquesilvadev/book1.jpg" />
+      }}>
+      <img src="https://storage.cloud.google.com/henriquesilvadev/book1.jpg" alt="book1"/>
       <br /><br />
       <img src="https://storage.cloud.google.com/henriquesilvadev/book-4.png" alt="book4" />
       <br /><br />
