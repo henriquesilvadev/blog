@@ -13,15 +13,14 @@ export default ({
   <Layout css={{ fontFamily: "-apple-system, Helvetica, Arial, sans-serif"}}>
   <Header css={{ backgroundColor: '#fff', border: '1px solid'}}>
       <img src='/assets/img/logo-2.jpg' alt='Logo' />
-      <span sx={{ fontSize: '20px' }}>
-        HENRIQUE SILVA <b>DEV</b>
-      </span>
-    {/* <Search /> */}
+      <h2>
+        HENRIQUE SILVA DEV
+      </h2>
     <nav 
       css={{ 
         alignItems: `right`, 
         justifyContent: `space-between`, 
-        marginLeft: '150px',
+        marginLeft: '100px',
       }}>
       <GithubButton />
     </nav>
