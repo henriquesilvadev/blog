@@ -14,7 +14,7 @@ export default ({
   <Header css={{ backgroundColor: '#fff', border: '1px solid'}}>
     <img src='/assets/img/logo-4.jpg' alt='Logo' />
     <nav 
-      css={{ 
+      sx={{ 
         alignItems: `right`, 
         justifyContent: `space-between`, 
         marginLeft: '150px',
