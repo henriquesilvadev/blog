@@ -21,6 +21,7 @@ const Layout = ({ children, className }: LayoutProps) => {
             boxSizing: `inherit`,
           },
           body: {
+            fontSize: '20px',
             // position: 'flex',
             margin: 0,
             // marginTop: '250px',
