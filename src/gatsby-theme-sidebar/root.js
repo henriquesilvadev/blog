@@ -36,7 +36,9 @@ export default ({
       <br /><br />
       <img src="https://storage.cloud.google.com/henriquesilvadev/book-5.png" alt="book5" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilvadev/atomic-design.jpg" alt="book5" />    
+      <img src="https://storage.cloud.google.com/henriquesilvadev/atomic-design.jpg" alt="atomic-design" />    
+      <br /><br />
+      <img src="https://storage.cloud.google.com/henriquesilvadev/html-css-book.jpg" alt="html-css" />
     </Sidebar>
     <Content css={{ width: '60%' }}>
       {props.children}
