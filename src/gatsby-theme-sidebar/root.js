@@ -14,10 +14,10 @@ export default ({
   <Header css={{ backgroundColor: '#fff', border: '1px solid'}}>
     <img src='/assets/img/logo-4.jpg' alt='Logo' />
     <nav 
-      sx={{ 
-        alignItems: `right`, 
+      css={{ 
+        alignItems: `center`, 
         justifyContent: `space-between`, 
-        marginLeft: '150px',
+        marginLeft: '250px',
       }}>
       <GithubButton />
     </nav>
