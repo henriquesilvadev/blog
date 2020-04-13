@@ -15,19 +15,14 @@ const ForBusinesses = () => {
       sx={{ 
         a: {
           display: 'inline-block',
-          border: 'none',
           margin: '2px',
-          backgroundImage: 'none',
-          backgroundColor: '#000000',
-          color: '#ffffff',
+          color: '#333333',
           letterSpacing: '1px',
           transaction: 'all 0.1s linear',
           padding: '0.7rem 1rem',
-          textDecoration: 'none',
           "&:hover": {
-            cursor: 'pointer',
-            backgroundColor: '#4c4c46',
-            textDecoration: 'none',
+            color: '#ccc',
+            fontWeight: 'bolt',
           },
         },      
       }}>
@@ -35,30 +30,75 @@ const ForBusinesses = () => {
       <Box mb={4} sx={{border: '1px solid', padding: '2rem'}}>
         <b>MISSÃO</b>
         <hr />  
-        Prestar Consultoria de modo a maximizar a produtividade das equipes e desenvolvimento,
-        encontrando as melhores e mais elegantes formas de programar, bem como ajudar outros a 
-        fazerem o mesmo.
+        Estar comprometidos com práticas de desenvolvimento de tecnologia que
+        incluem: transparência, qualidade, serviço, aprendizado, inclusão, respeito e justiça. 
         <br /><br />
 
         <b>VISÂO</b>
-        <hr />  
-        Espero poder entender os padrões do bom design de software e também os 
-        melhores processos que os dão suporte. 
+        <hr />          
+        Meus valores orientam minha conduta com os outros, com meus clientes e com as comunidades 
+        das quais faço parte. Todos os meus projetos de consultoria, projetos de código aberto e 
+        eventos da comunidade são regidos pelo seguinte Código de Conduta.
+        <a href="/jsgo-conduct-code" alt="JSGO Conduct Code" target="_blank">JSGO Conduct Code</a>
         <br /><br />
         
-        <a href="https://agilemanifesto.org/iso/ptbr/manifesto.html">Manifesto para Desenvolvimento Ágil de Software</a>
-        <a href="https://agilemanifesto.org/iso/ptbr/principles.html">Princípios do Software Ágil</a>
-
-        <br /><br />
+        {/* <a href="https://agilemanifesto.org/iso/ptbr/manifesto.html">Manifesto para Desenvolvimento Ágil de Software</a>
+        <a href="https://agilemanifesto.org/iso/ptbr/principles.html">Princípios do Software Ágil</a> */}
 
         <b>VALORES</b>
         <hr />  
-        <ul>
-          <li>Comprometimento com a entrega de resultatos.</li>
-          <li>Ética profissional e social.</li>
-          <li>Espirito de equipe.</li>
-          <li>Gestão eficiente e compartilhada.</li>
-        </ul>
+
+        <b>Qualidade</b>
+        <br />
+        Orgulhamo-me do meu trabalho e me dedico a escrever um bom software. 
+        Participo de revisões rigorosas de código. 
+        Como organização, gosto de fazer parceria com aqueles que se sentem da 
+        mesma forma com a qualidade de seu trabalho, mantendo um ambiente acolhedor 
+        para iniciantes.
+        <br /><br />
+
+        <b>Orientado a serviço</b>
+        <br />
+        Priorizo as relações de trabalho a longo prazo em detrimento do valor 
+        a curto prazo, e beneficiando os meus clientes nos resultados finais. 
+        Estou comprometido em melhorar o estado dos projetos em que trabalho 
+        e as equipes com as quais trabalho.
+        <br /><br />
+
+        <b>Aprendizagem e Educação</b>
+        <br />
+        Procuro oportunidades para apoiar novos alunos. Da mesma forma, acredito que, para permanecar
+        especialista, em meu campo, preciso aprender continuamente através da prática. 
+        promovendo uma cultura de perguntas e estimulando uma mentalidade 
+        de aprendizado para meus projetos e membros da equipe.
+        <br /><br />
+
+        <b>Inclusão</b>
+        <br />
+        Verificar regularmente meus privilégios e trabalhar para examinar continuamente 
+        o viés em relação às pessoas marginalizadas não representadas em meus projetos 
+        e equipes. Priorizando a inclusão de pessoas marginalizadas em detrimento de pessoas 
+        mais privilegiadas. Aplicando o Código de Conduta da JSGO Group internamente 
+        e dentro de cada projeto, organização e evento em que participamos ou servimos.
+        <br /><br />
+
+        <b>Respeito</b>
+        <br />
+        Respeitar a experiência de outros campos e principalmente das pessoas 
+        que usam o software em que trabalhamos. O desenvolvimento de software é 
+        uma experiência valiosa, mas limitada. Ele não pode substituir ou qualificar 
+        quem sou, buscando preencher outros conhecimentos necessários para 
+        aumentar a inclusão na produção da web. Da mesma forma, nas equipes de 
+        projeto, tratando todos os participantes do projeto com respeito e Espero 
+        o mesmo em troca.
+        <br /><br />
+
+        <b>Justiça social</b>
+        <br />
+        Priorizo a segurança e o bem-estar das pessoas marginalizadas em detrimento 
+        do trabalho técnico, e tomo o cuidado de evitar soluções tecnológicas onde 
+        os processos cívicos sejam mais apropriados. Não me envolvo em projetos que 
+        violem o Código de Conduta do JSGO Group ou prejudiquem pessoas marginalizadas.
         <hr />
         <section>
           <a href="/about">SOBRE MIM</a>        
