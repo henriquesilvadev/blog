@@ -17,7 +17,7 @@ export default ({
       css={{ 
         alignItems: `center`, 
         justifyContent: `space-between`, 
-        marginLeft: '250px',
+        marginLeft: '180px',
       }}>
       <GithubButton />
     </nav>
