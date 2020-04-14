@@ -13,7 +13,13 @@
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "check": "gts check",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
@@ -21,6 +27,8 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@lekoarts/gatsby-theme-minimal-blog": "^2.2.2",
     "autoprefixer": "^9.7.5",
+    "axios": "^0.19.2",
+    "curl": "^0.1.4",
     "disqus-react": "^1.0.8",
     "gatsby": "^2.13.3",
     "gatsby-image": "^2.3.1",
@@ -39,6 +47,7 @@
     "gatsby-source-instagram-all": "^2.0.5",
     "gatsby-theme-sidebar": "0.0.2",
     "gatsby-transformer-remark": "^2.7.1",
+    "github-card": "^1.2.1",
     "graphql": "^14.6.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -50,6 +59,9 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8"
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8",
+    "gts": "^2.0.0",
+    "typescript": "~3.8.0",
+    "@types/node": "^10.0.3"
   }
 }
