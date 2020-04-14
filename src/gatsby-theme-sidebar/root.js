@@ -1,5 +1,8 @@
 import React from 'react'
 import GithubButton from './github-button'
+// import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config"
+
+// const { basePath } = useMinimalBlogConfig()
 
 export default ({
   Layout,
@@ -10,6 +13,7 @@ export default ({
   Footer,
   ...props
 }) =>
+  
   <Layout css={{ fontFamily: "-apple-system, Helvetica, Arial, sans-serif"}}>
   <Header css={{ backgroundColor: '#fff', border: '1px solid'}}>
     <img src='/assets/img/logo-4.jpg' alt='Logo' />
@@ -28,17 +32,17 @@ export default ({
       paddingTop: '50px',
       width: '20%'
       }}>                
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-8.jpg" alt="book8" />
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864978/henriquesilva.dev/book-8_czauth.jpg" alt="book8" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-2.png" alt="book2" />
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864990/henriquesilva.dev/book-2_pfqtcl.png" alt="book2" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-3.jpg" alt="book3" />
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864986/henriquesilva.dev/book-3_onxkbz.png" alt="book3" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-5.png" alt="book5" />
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864986/henriquesilva.dev/book-5_ipmqng.png" alt="book5" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/atomic-design.jpg" alt="atomic-design" />    
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864933/henriquesilva.dev/atomic-design_y8kp0s.jpg" alt="atomic-design" />    
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/html-css-book.jpg" alt="html-css" />
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864933/henriquesilva.dev/html-css-book_s4c18u.jpg" alt="html-css" />
     </Sidebar>
     <Content css={{ width: '60%' }}>
       {props.children}
@@ -48,13 +52,13 @@ export default ({
       paddingTop: '50px',
       width: '20%'
       }}>
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/book1.jpg" alt="book1"/>
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864996/henriquesilva.dev/book1_s4ddss.jpg" alt="book1"/>
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-4.png" alt="book4" />
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864986/henriquesilva.dev/book-4_m6mrgq.png" alt="book4" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-7.png" alt="book7" />
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864978/henriquesilva.dev/book-7_erpzoq.png" alt="book7" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-6.png" alt="book6" />
+      <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864984/henriquesilva.dev/book-6_q0yq4e.png" alt="book6" />
     </Sidebar>
 
   </Main>
