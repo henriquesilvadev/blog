@@ -28,17 +28,17 @@ export default ({
       paddingTop: '50px',
       width: '20%'
       }}>                
-      <img src="https://storage.cloud.google.com/henriquesilvadev/book-8.jpg" alt="book8" />
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-8.jpg" alt="book8" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilvadev/book-2.png" alt="book2" />
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-2.png" alt="book2" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilvadev/book-3.jpg" alt="book3" />
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-3.jpg" alt="book3" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilvadev/book-5.png" alt="book5" />
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-5.png" alt="book5" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilvadev/atomic-design.jpg" alt="atomic-design" />    
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/atomic-design.jpg" alt="atomic-design" />    
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilvadev/html-css-book.jpg" alt="html-css" />
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/html-css-book.jpg" alt="html-css" />
     </Sidebar>
     <Content css={{ width: '60%' }}>
       {props.children}
@@ -48,13 +48,13 @@ export default ({
       paddingTop: '50px',
       width: '20%'
       }}>
-      <img src="https://storage.cloud.google.com/henriquesilvadev/book1.jpg" alt="book1"/>
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/book1.jpg" alt="book1"/>
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilvadev/book-4.png" alt="book4" />
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-4.png" alt="book4" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilvadev/book-7.png" alt="book7" />
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-7.png" alt="book7" />
       <br /><br />
-      <img src="https://storage.cloud.google.com/henriquesilvadev/book-6.png" alt="book6" />
+      <img src="https://storage.cloud.google.com/henriquesilva-dev/book-6.png" alt="book6" />
     </Sidebar>
 
   </Main>
