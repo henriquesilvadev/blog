@@ -101,7 +101,7 @@ const ForBusinesses = () => {
         violem o Código de Conduta do JSGO Group ou prejudiquem pessoas marginalizadas.
         <hr />
 
-        <section>
+        {/* <section>
           <a href="/about">SOBRE MIM</a>        
           <a href="https://calendly.com/henriquesilvadev/work">MINHA AGENDA</a>
           <a href="https://join.slack.com/t/henriquesilvadev/shared_invite/zt-dczfn4xt-7J_HA1C2OLzo4aIs1S39Ww">MEU LOCAL DE TRABALHO</a>
@@ -110,7 +110,7 @@ const ForBusinesses = () => {
           <a href="https://api.whatsapp.com/send?phone=+5562985849729">Meu WhatsApp</a>
           <a href="mailto://contato@henriquesilva.dev">E-mail: contato@henriquesilva.dev</a>
           
-        </section>
+        </section> */}
       </Box>
     </section>      
   )

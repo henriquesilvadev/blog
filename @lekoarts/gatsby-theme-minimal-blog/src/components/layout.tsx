@@ -22,8 +22,7 @@ const Layout = ({ children, className }: LayoutProps) => {
           },
           body: {
             fontSize: '20px',
-            backgroundColor: '#c3c3c3',
-            // position: 'flex',
+            backgroundColor: '#32332e',
             margin: 0,
             // marginTop: '250px',
             padding: 0,

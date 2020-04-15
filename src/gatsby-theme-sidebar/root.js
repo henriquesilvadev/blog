@@ -17,8 +17,8 @@ export default ({
 }) =>
   
   <Layout css={{ fontFamily: "-apple-system, Helvetica, Arial, sans-serif"}}>
-  <Header css={{ backgroundColor: '#fff', border: '1px solid'}}>
-    <img src='/assets/img/logo-4.jpg' alt='Logo' />
+  <Header css={{ backgroundColor: '#fff', border: '1px solid', a: { color: '#2a2a2a'}}}>
+    <img src='/assets/img/logo-4.jpg' alt='Logo' css={{ widht: '80%', margin: '5px'}} />
     <nav 
       css={{ 
         alignItems: `center`, 
@@ -27,11 +27,10 @@ export default ({
       }}>
       <GithubButton />
     </nav>
-    <GithubCorner href="https://github.com/henriquesilvadev" />
+    <GithubCorner href="https://github.com/henriquesilvadev" size='80' bannerColor='#000' octoColor='#fff' />
   </Header>
   <Main>
-    <Sidebar css={{
-      backgroundColor: '#f6f6f6',
+    <Sidebar css={{      
       paddingTop: '50px',
       width: '20%'
       }}>                
@@ -51,7 +50,6 @@ export default ({
       {props.children}
     </Content>
     <Sidebar css={{
-      backgroundColor: '#f6f6f6',
       paddingTop: '50px',
       width: '20%'
       }}>
@@ -65,7 +63,15 @@ export default ({
     </Sidebar>
 
   </Main>
-  <Footer css={{ backgroundColor: '#000', color: '#fff' }}>
+  <Footer css={{ a: { color: '#fff', marginRight: '10px', textDecoration: 'none'}, 'a:hover': { fontWeight: 'bold'} , backgroundColor: '#000', color: '#fff', padding: '2rem' }}>
     &copy; {new Date().getFullYear()} HENRIQUE SILVA DEV. Todos os Direitos Resevados.
+    <hr />
+    <a href='/about'>Sobre</a>
+    <a href='https://www.facebook.com/hsilvadev/'>Facebook</a>
+    <a href='https://www.instagram.com/henriquesilva_dev'>Instagram</a>
+    <a href='https://www.linkedin.com/company/henriquesilvadev'>LinkedIn</a>
+    <a href='https://twitter.com/dev_henrique'>Twitter</a>
+    <a href='https://www.youtube.com/channel/UCSi18AMnRETZoNSQrOwwaOw'>Youtube</a>
+    <a href='https://soundcloud.com/henrique-silva-dev'>SoundCloud</a>    
   </Footer>
 </Layout>

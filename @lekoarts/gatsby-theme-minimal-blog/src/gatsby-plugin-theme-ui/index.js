@@ -102,7 +102,7 @@ export default {
       padding: [3, 4],
     },
     blockquote: {
-      borderLeftColor: `primary`,
+      borderLeftColor: `#4a1260`,
       borderLeftStyle: `solid`,
       borderLeftWidth: `6px`,
       mx: 0,
