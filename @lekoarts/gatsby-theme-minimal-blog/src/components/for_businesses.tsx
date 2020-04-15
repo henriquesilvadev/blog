@@ -100,6 +100,7 @@ const ForBusinesses = () => {
         os processos cívicos sejam mais apropriados. Não me envolvo em projetos que 
         violem o Código de Conduta do JSGO Group ou prejudiquem pessoas marginalizadas.
         <hr />
+
         <section>
           <a href="/about">SOBRE MIM</a>        
           <a href="https://calendly.com/henriquesilvadev/work">MINHA AGENDA</a>

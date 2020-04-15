@@ -22,6 +22,7 @@ const Layout = ({ children, className }: LayoutProps) => {
           },
           body: {
             fontSize: '20px',
+            backgroundColor: '#c3c3c3',
             // position: 'flex',
             margin: 0,
             // marginTop: '250px',
@@ -37,7 +38,7 @@ const Layout = ({ children, className }: LayoutProps) => {
             transition: `all 0.3s ease-in-out`,
             color: `text`,
           },
-          p: { 
+          p: {           
             img: {
               width: '100%',
             },
@@ -63,7 +64,7 @@ const Layout = ({ children, className }: LayoutProps) => {
               border: 'none',
               margin: '1.5px',
               padding: '1rem 1.5rem',
-            },
+            },            
           },
         })}
       />
@@ -71,10 +72,11 @@ const Layout = ({ children, className }: LayoutProps) => {
       <SkipNavLink>Skip to content</SkipNavLink>
         <Container>
           {/* <Header /> */}
+          <i className="fas fa-heart" />
           <Main id="skip-nav" css={css({ ...CodeStyles })} className={className} sx={{ marginTop: '200px'}}>
             {children}
           </Main>
-          <Footer />
+          {/* <Footer /> */}
         </Container>
     </Styled.root>
   )

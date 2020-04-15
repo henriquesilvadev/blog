@@ -1,5 +1,7 @@
 import React from 'react'
 import GithubButton from './github-button'
+import GithubCorner from 'react-github-corner'
+
 // import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config"
 
 // const { basePath } = useMinimalBlogConfig()
@@ -25,6 +27,7 @@ export default ({
       }}>
       <GithubButton />
     </nav>
+    <GithubCorner href="https://github.com/henriquesilvadev" />
   </Header>
   <Main>
     <Sidebar css={{
@@ -62,7 +65,7 @@ export default ({
     </Sidebar>
 
   </Main>
-  {/* <Footer>
-    your custom footer content
-  </Footer> */}
+  <Footer css={{ backgroundColor: '#000', color: '#fff' }}>
+    &copy; {new Date().getFullYear()} HENRIQUE SILVA DEV. Todos os Direitos Resevados.
+  </Footer>
 </Layout>

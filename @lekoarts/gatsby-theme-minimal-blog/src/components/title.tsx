@@ -27,7 +27,9 @@ const iconRenderSwitch = (param) => {
       return 'mind.png';       
     case 'Podcast':
       return 'logo-mind.png';       
-          
+    case 'GitHub':
+      return 'logo-github.png';       
+            
     default:
       return 'Subscribe';
   }

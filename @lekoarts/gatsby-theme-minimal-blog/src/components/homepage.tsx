@@ -15,6 +15,7 @@ import SentenceBook from "./sentence-book"
 import EmailListForm from "./email-list-form"
 import SoundCloudPlayer from "./soundcloud-player"
 import ForBusinesses from "./for_businesses"
+import WidgetUser from "./widget-user"
 
 type PostsProps = {
   posts: {
@@ -43,6 +44,7 @@ const Homepage = ({ posts }: PostsProps) => {
         <hr />
         <SentenceBook />
       </section>
+      {/* <WidgetUser username='henriquehsilva' /> */}
       <ForBusinesses />
       <section sx={{mb: [3]}}>
       <Title text="Últimas Postagens">

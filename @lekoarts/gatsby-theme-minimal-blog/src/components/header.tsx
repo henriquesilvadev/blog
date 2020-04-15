@@ -7,7 +7,6 @@ import useMinimalBlogConfig from "../hooks/use-minimal-blog-config"
 import Navigation from "./navigation"
 import replaceSlashes from "../utils/replaceSlashes"
 import Title from "./title"
-import Hero from "./hero"
 
 const Header = () => {
   const { siteTitle } = useSiteMetadata()
@@ -64,7 +63,7 @@ const Header = () => {
             ))}           
           </div>
         )}
-      </div>
+      </div> 
     </header>
   )
 }
