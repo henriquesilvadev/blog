@@ -6,7 +6,7 @@ class SoundCloudPlayer extends Component {
   render() {
     return (
       <div>
-        <Title text={"Podcast"}/>
+        {/* <Title text={"Podcast"}/> */}
         <iframe 
           width="100%" 
           height="300"

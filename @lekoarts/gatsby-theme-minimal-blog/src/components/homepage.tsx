@@ -37,6 +37,7 @@ const Homepage = ({ posts }: PostsProps) => {
 
   return (
     <Layout>
+      <SoundCloudPlayer />
       <section sx={{ mb: [5 , 4, 5], p: { fontSize: [1, 2, 3], mt: 2 },
           fontFamily: '-apple-system, Helvetica, Arial, sans-serif',
           padding: '2rem', border: '1px solid'}}>
@@ -52,7 +53,6 @@ const Homepage = ({ posts }: PostsProps) => {
       </Title>
       </section>
       <Listing posts={posts} showTags={false} />      
-      <SoundCloudPlayer />
       <EmailListForm />
       <List>
         <Bottom />
