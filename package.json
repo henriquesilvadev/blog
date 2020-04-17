@@ -59,7 +59,6 @@
     "vfile-message": "^2.0.4"
   },
   "devDependencies": {
-    "@types/node": "^10.0.3",
     "cross-env": "^5.2.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8",
     "gts": "^2.0.0",
