@@ -65,7 +65,7 @@ module.exports = {
           //   name: `SALA DE REUNIÃO`,
           //   target: `_blank`,
           //   url: `https://zoom.us/j/7512795114?pwd=dTNiQ2kzNmgrZFE3aTJrZEJndk54QT09`,
-          // },    
+          // },
           // {
           //   name: `Instagram`,
           //   target: `_blank`,
@@ -82,13 +82,6 @@ module.exports = {
           //   url: `https://twitter.com/henriquegeek`,
           // },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `img`,
-        path: `./static/assets/img/`,
       },
     },
     {
@@ -129,23 +122,10 @@ module.exports = {
           'https://dev.us19.list-manage.com/subscribe/post?u=65338fe69bd7e3f70bd675d53&amp;id=3cf1696e47',
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-typography",
-    //   options: {
-    //     pathToConfigModule: "src/utils/typography.js"
-    //   },
-    // },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/static/assets/img/`,
-      },
-    },
     'gatsby-theme-sidebar',
-    `gatsby-plugin-modal-routing`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
-    `gatsby-plugin-webpack-bundle-analyser-v2`,
+    'gatsby-plugin-modal-routing',
+    'gatsby-plugin-offline',
+    'gatsby-plugin-netlify',
+    'gatsby-plugin-webpack-bundle-analyser-v2',
   ],
 }
