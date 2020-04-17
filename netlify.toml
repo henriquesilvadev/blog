@@ -1,4 +1,4 @@
 [build]
   base = "."
-  command = "npm install && rm -rf node_modules/@lekoarts && cp -rf @lekoarts node_modules/ && rm -rf node_modules/gatsby-theme-sidebar && cp -rf gatsby-theme-sidebar node_modules/ && node build"
+  command = "npm install && rm -rf node_modules/@types && cp -rf @types node_modules/ && rm -rf node_modules/@lekoarts && cp -rf @lekoarts node_modules/ && rm -rf node_modules/gatsby-theme-sidebar && cp -rf gatsby-theme-sidebar node_modules/ && yarn build"
   publish = "public"
