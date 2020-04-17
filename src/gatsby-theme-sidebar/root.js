@@ -70,7 +70,7 @@ export default ({
     </Sidebar>
   </Main>
   <Footer css={{ a: { color: '#fff', marginRight: '10px', textDecoration: 'none'}, 'a:hover': { fontWeight: 'bold'} , backgroundColor: '#000', color: '#fff', padding: '2rem' }}>
-    &copy; {new Date().getFullYear()} HENRIQUE SILVA DEV. Todos os Direitos Resevados.
+    &copy; {new Date().getFullYear()} HENRIQUE SILVA DEV - MEI / CNPJ 36.349.019/0001-95. Todos os Direitos Resevados.
     <hr />
     <a href='/about'>Sobre</a>
     <a href='https://www.facebook.com/hsilvadev/'>Facebook</a>
