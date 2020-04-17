@@ -78,6 +78,6 @@ export default ({
     <a href='https://www.linkedin.com/company/henriquesilvadev'>LinkedIn</a>
     <a href='https://twitter.com/dev_henrique'>Twitter</a>
     <a href='https://www.youtube.com/channel/UCSi18AMnRETZoNSQrOwwaOw'>Youtube</a>
-    <a href='https://soundcloud.com/henrique-silva-dev'>SoundCloud</a>    
+    <a href='https://soundcloud.com/henrique-silva-dev'>SoundCloud</a>    |
   </Footer>
 </Layout>
