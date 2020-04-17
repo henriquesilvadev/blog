@@ -55,13 +55,14 @@
     "react-typography": "^0.16.19",
     "source-map": "^0.7.3",
     "tailwindcss": "^1.2.0",
+    "tslint": "^6.1.1",
     "typography": "^0.16.19"
   },
   "devDependencies": {
+    "@types/node": "^10.0.3",
     "cross-env": "^5.2.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8",
     "gts": "^2.0.0",
-    "typescript": "~3.8.0",
-    "@types/node": "^10.0.3"
+    "typescript": "^3.8.3"
   }
 }
