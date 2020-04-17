@@ -1,4 +1,4 @@
 [build]
   base = "."
-  command = "npm install && npm install --save typescript && rm -rf node_modules/@lekoarts && cp -rf @lekoarts node_modules/ && rm -rf node_modules/gatsby-theme-sidebar && cp -rf gatsby-theme-sidebar node_modules/ && yarn build"
+  command = "yarn build"
   publish = "public"
