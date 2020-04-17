@@ -10,7 +10,7 @@
 
 import * as React from 'react';
 import { Location as HLocation } from 'history';
-export type WindowLocation = window['location'] & HLocation;
+// export type WindowLocation = window['location'] & HLocation;
 
 export type HistoryActionType = 'PUSH' | 'POP';
 export type HistoryLocation = WindowLocation & { state?: any };
