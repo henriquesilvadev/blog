@@ -55,7 +55,6 @@
     "react-typography": "^0.16.19",
     "source-map": "^0.7.3",
     "tailwindcss": "^1.2.0",
-    "tslint": "^6.1.1",
     "typography": "^0.16.19",
     "vfile-message": "^2.0.4"
   },
