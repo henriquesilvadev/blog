@@ -46,7 +46,7 @@ const Homepage = ({ posts }: PostsProps) => {
         <SentenceBook />
       </section>
       {/* <WidgetUser username='henriquehsilva' /> */}
-      <ForBusinesses />
+      {/* <ForBusinesses /> */}
       <section sx={{mb: [3]}}>
       <Title text="Últimas Postagens">
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Demais Postagens</Link>

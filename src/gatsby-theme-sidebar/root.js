@@ -16,8 +16,15 @@ export default ({
   ...props
 }) =>
   
-  <Layout css={{ fontFamily: "-apple-system, Helvetica, Arial, sans-serif"}}>
-  <Header css={{ backgroundColor: '#fff', border: '1px solid', a: { color: '#2a2a2a'}}}>
+  <Layout>
+  <Header css={{ 
+    backgroundColor: '#fff',
+    fontFamily: ' WeblySleek UI, Segoe UI, Helvetica',
+    transition: 'all .3s ease-in',
+    border: '1px solid #ccc',
+    paddingRight: 0,
+    maxHeight: '340px',}}>
+
     <img src='/assets/img/logo-4.jpg' alt='Logo' css={{ widht: '80%', margin: '5px'}} />
     <nav 
       css={{ 
@@ -29,7 +36,7 @@ export default ({
     </nav>
     <GithubCorner href="https://github.com/henriquesilvadev" size='80' bannerColor='#000' octoColor='#fff' />
   </Header>
-  <Main>
+  <Main css={{ backgroundColor: "#f2f2f2"}}>
     <Sidebar css={{      
       paddingTop: '50px',
       width: '20%'
@@ -61,7 +68,6 @@ export default ({
       <br /><br />
       <img src="https://res.cloudinary.com/henrique-silva-dev/image/upload/v1586864984/henriquesilva.dev/book-6_q0yq4e.png" alt="book6" />
     </Sidebar>
-
   </Main>
   <Footer css={{ a: { color: '#fff', marginRight: '10px', textDecoration: 'none'}, 'a:hover': { fontWeight: 'bold'} , backgroundColor: '#000', color: '#fff', padding: '2rem' }}>
     &copy; {new Date().getFullYear()} HENRIQUE SILVA DEV. Todos os Direitos Resevados.
