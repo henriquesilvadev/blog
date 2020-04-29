@@ -24,13 +24,15 @@ export default ({
     border: '1px solid #ccc',
     paddingRight: 0,
     maxHeight: '340px',}}>
-
-    <img src='/assets/img/logo-4.jpg' alt='Logo' css={{ widht: '80%', margin: '5px'}} />
+    
+    <a href="https://henriquesilva.dev">
+      <img src='/assets/img/logo-4.jpg' alt='Logo' css={{ widht: '80%', margin: '5px'}} />
+    </a>
     <nav 
       css={{ 
         alignItems: `center`, 
         justifyContent: `space-between`, 
-        marginLeft: '180px',
+        marginLeft: '30%',
       }}>
       <GithubButton />
     </nav>

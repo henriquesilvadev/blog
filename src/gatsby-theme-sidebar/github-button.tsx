@@ -3,9 +3,9 @@ import { jsx } from "theme-ui"
 
 const navlinks = [
   { title: 'HOME', url: '/' },
-  { title: 'PARA EMPRESAS', url: '/for-businesses' },
+  // { title: 'PARA EMPRESAS', url: '/for-businesses' },
   // { title: 'APORTE', url: 'https://nubank.com.br/pagar/9ifs7/C6JdIWea8E' },
-  { title: 'BLOG', url: '/blog' },
+  { title: 'POSTS', url: '/blog' },
   // { title: 'SALA DE AULA', url: 'https://henriquesilvadev.teachable.com/p/home' },
   // { title: 'SOBRE', url: '/about' },
 ]
