@@ -2,7 +2,7 @@
   "_args": [
     [
       "@types/history@4.7.5",
-      "/home/henrique/Projetos/henriquesilvadev"
+      "/home/hsdev/Projetos/bkp-henriquesilvadev"
     ]
   ],
   "_from": "@types/history@4.7.5",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@types/history/-/history-4.7.5.tgz",
   "_spec": "4.7.5",
-  "_where": "/home/henrique/Projetos/henriquesilvadev",
+  "_where": "/home/hsdev/Projetos/bkp-henriquesilvadev",
   "bugs": {
     "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
   },

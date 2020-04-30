@@ -2,7 +2,7 @@
   "_args": [
     [
       "@types/react@16.9.26",
-      "/home/henrique/Projetos/henriquesilvadev"
+      "/home/hsdev/Projetos/bkp-henriquesilvadev"
     ]
   ],
   "_from": "@types/react@16.9.26",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@types/react/-/react-16.9.26.tgz",
   "_spec": "16.9.26",
-  "_where": "/home/henrique/Projetos/henriquesilvadev",
+  "_where": "/home/hsdev/Projetos/bkp-henriquesilvadev",
   "bugs": {
     "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
   },

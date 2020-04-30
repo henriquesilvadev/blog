@@ -2,7 +2,7 @@
   "_args": [
     [
       "@types/color-name@1.1.1",
-      "/home/henrique/Projetos/henriquesilvadev"
+      "/home/hsdev/Projetos/bkp-henriquesilvadev"
     ]
   ],
   "_from": "@types/color-name@1.1.1",
@@ -26,13 +26,14 @@
     "/boxen/ansi-styles",
     "/cli-truncate/ansi-styles",
     "/eslint/ansi-styles",
+    "/gts/ansi-styles",
     "/ink/ansi-styles",
     "/tailwindcss/ansi-styles",
     "/yurnalist/ansi-styles"
   ],
   "_resolved": "https://registry.npmjs.org/@types/color-name/-/color-name-1.1.1.tgz",
   "_spec": "1.1.1",
-  "_where": "/home/henrique/Projetos/henriquesilvadev",
+  "_where": "/home/hsdev/Projetos/bkp-henriquesilvadev",
   "bugs": {
     "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
   },

@@ -2,7 +2,7 @@
   "_args": [
     [
       "@types/events@3.0.0",
-      "/home/henrique/Projetos/henriquesilvadev"
+      "/home/hsdev/Projetos/bkp-henriquesilvadev"
     ]
   ],
   "_from": "@types/events@3.0.0",
@@ -28,7 +28,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@types/events/-/events-3.0.0.tgz",
   "_spec": "3.0.0",
-  "_where": "/home/henrique/Projetos/henriquesilvadev",
+  "_where": "/home/hsdev/Projetos/bkp-henriquesilvadev",
   "bugs": {
     "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
   },
