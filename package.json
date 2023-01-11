@@ -45,7 +45,7 @@
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-source-instagram-all": "^2.0.5",
     "gatsby-theme-sidebar": "0.0.2",
-    "gatsby-transformer-remark": "^2.7.1",
+    "gatsby-transformer-remark": "^5.25.1",
     "github-card": "^1.2.1",
     "graphql": "^14.6.0",
     "react": "^16.9.0",
